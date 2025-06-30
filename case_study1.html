@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credify – Smart Loan Management System | Case Study</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: #1a1a2e;
+            color: #f8f9fa;
+            overflow-x: hidden;
+        }
+        .section {
+            padding: 60px 20px;
+        }
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 4px;
+            background: linear-gradient(45deg, #06d6a0, #ef476f);
+            bottom: -10px;
+            left: 0;
+        }
+        .feature {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+        }
+        .feature:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="fixed w-full px-8 py-6 z-50">
+        <body>
+    <!-- Navigation -->
+    <nav class="fixed w-full px-8 py-6 z-50">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold tracking-tighter">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">LIQUID</span> PORTFOLIO
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="portfolio.html" class="hover:text-primary transition-colors">Home</a>
+                <a href="case_study.html" class="hover:text-primary transition-colors">Case Study</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Case Study Section -->
+    <section class="section">
+        <div class="max-w-6xl mx-auto">
+            <h1 class="section-title">Credify – Smart Loan Management System</h1>
+            <p class="text-lg mb-8">A fintech solution for loan eligibility assessment and loan type management.</p>
+            <h2 class="text-2xl font-bold mb-4">📌 Overview</h2>
+            <p class="mb-6">
+                Credify is a lightweight, intelligent fintech web application designed to streamline the loan eligibility process and loan type classification. Built with Python, Flask, and a clean frontend, Credify simplifies the way users interact with financial systems by automating decision-making through rule-based and data-driven logic.
+            </p>
+            <h2 class="text-2xl font-bold mb-4">🎯 Problem Statement</h2>
+            <p class="mb-6">
+                In traditional loan application systems, the eligibility checking process is often time-consuming, manual, and unclear to users. Applicants rarely get instant insights into their loan options or eligibility criteria, leading to confusion and delays.
+            </p>
+
+             <h2 class="text-2xl font-bold mb-4">💡 Solution</h2>
+            <p class="mb-6">
+                Credify solves this by offering a real-time, easy-to-use interface where users can:
+            </p>
+            <div class="feature">
+                <ul class="list-disc pl-6">
+                    <li>Enter personal and financial details</li>
+                    <li>Instantly check if they're eligible for a loan</li>
+                    <li>Explore different loan types suited to their profile</li>
+                    <li>Receive clear insights based on predefined logic or ML models (extendable)</li>
+                </ul>
+            </div>
+            <h2 class="text-2xl font-bold mb-4">⚙️ Tech Stack</h2>
+
+            <div class="feature">
+                 <p><strong>Frontend:</strong> HTML, CSS, Bootstrap</p>
+                <p><strong>Backend:</strong> Python (Flask)</p>
+                <p><strong>Logic Handling:</strong> Rule-based eligibility conditions (can be upgraded to ML model)</p>
+                <p><strong>Optional:</strong> Streamlit (for rapid prototyping), SQLite (for storing users or results)</p>
+            </div>
+            <h2 class="text-2xl font-bold mb-4">🔑 Key Features</h2>
+
+            <div class="feature">
+                <ul class="list-disc pl-6">
+                    <li>✅ User-friendly input form for loan details</li>
+                    <li>⚡ Instant eligibility check</li>
+                    <li>🏦 Categorization of loan types (e.g., Home Loan, Personal Loan, Education Loan)</li>
+                    <li>📊 Scalable architecture to integrate ML or credit score APIs</li>
+                    <li>🎨 Clean and minimal UI design for seamless user experience</li>
+                </ul>
+            </div>
+            <h2 class="text-2xl font-bold mb-4">🚀 Impact</h2>
+            <div class="feature">
+
+                <p>Reduced manual screening by automating the eligibility logic</p>
+                <p>Enhanced user transparency and trust in the loan process</p>
+                <p>Scalable for fintech startups, student fintech demos, or real-world use with extended integrations</p>
+            </div>
+        </div>
+    </section>
+
+      <!-- Footer -->
+    <footer class="py-8 bg-dark border-t border-gray-800">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+            <div class="text-lg font-bold tracking-tighter mb-4 md:mb-0">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">LIQUID</span> PORTFOLIO
+            </div>
+            <div class="text-gray-400 text-sm">
+                © 2023 Creative Professional. All rights reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
